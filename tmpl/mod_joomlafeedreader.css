@@ -1,0 +1,12 @@
+ul {
+	list-style : none;
+	margin : 0 0 10px 0;
+}
+ul li {
+	background : url(ai2.png) no-repeat 0 8px;
+	padding : 0 0 0 15px;
+	margin-left: -23px;
+	}
+p{
+	margin-left: 15px;
+}

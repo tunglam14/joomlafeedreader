@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Feed Reader</name>
+    <author>Lam Dang Tung</author>
+    <version>1.5.0</version>
+    <description>Feed reader for Joomla! 1.5.x.</description>
+    <languages>
+		<language tag="vi-VI">vi-VI.mod_joomlafeedreader.ini</language>
+        <language tag="en-GB">en-GB.mod_joomlafeedreader.ini</language>
+	</languages>
+    <files>
+        <filename>mod_joomlafeedreader.xml</filename>
+        <filename>vi-VI.mod_joomlafeedreader.ini</filename>
+        <filename module="mod_joomlafeedreader">mod_joomlafeedreader.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/mod_joomlafeedreader.css</filename>
+        <filename>tmpl/ai2.png</filename>
+    </files>
+    <params>
+        <param name="rsssource" type="text" default="http://vietnamnet.vn/rss/ban-doc-phap-luat.rss" label="RSS SOURCE" description="RSSSOURCE_EXPLAIN" />
+        <param name="maxnumber" type="text" default="5" label="MAX NUMBER" description="" />
+        <param name="rssname" type="text" default="VietNam Net" label="RSS NAME" description="RSSNAME_EXPLAIN" />
+    </params>
+</install>
